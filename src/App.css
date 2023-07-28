@@ -4,49 +4,8 @@
 
 body {
   margin: 0%;
-  padding: .3em;
+  padding: .1em;
   background-color: #524F4F;
-}
-
-.Profile_stuff img {
-  border-radius: 50%;
-  width: 40px;
-  cursor: pointer;
-}
-
-.navbar {
-  background-color: #524F4F;
-}
-
-i {
-  font-size: larger;
-  cursor: pointer;
-
-}
-
-.first_layout {
-  background-color: rgb(19, 18, 18);
-}
-
-.main_layout_container {
-  display: grid;
-  grid-template-columns: 1fr 4fr;
-
-
-}
-
-.card {
-  width: 12rem;
-  background-color: black;
-  color: white;
-  padding: 2px;
-  margin-top: 2px;
-
-}
-
-.card-container {
-  justify-content: space-between;
-
 }
 
 .main-container {
