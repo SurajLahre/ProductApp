@@ -105,13 +105,39 @@ function MainContent() {
                                     <button type="button" className="btn btn-sm btn-outline-light">Export</button>
                                 </div>
                                 <button type="button" className="btn btn-sm btn-outline-light dropdown-toggle d-flex align-items-center gap-1">
-                                <i className="fa-solid fa-calendar-days"></i>
+                                    <i className="fa-solid fa-calendar-days"></i>
                                     This week
                                 </button>
                             </div>
                         </div>
                         {/* MAIN CONTENT FORM HERE START */}
-                       
+                        <table class="table table-bordered border-light">
+                            <thead className="bg-dark text-light">
+                                <tr>
+                                    <th className="col">Sno</th>
+                                    <th className="col">First</th>
+                                    <th className="col">Last</th>
+                                    <th className="col">Handle</th>
+                                    <th className="col">third</th>
+                                    <th className="col" colSpan={7}>Actions</th>
+                                   
+                                  
+                                    
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <tr>
+                                    <th scope="row">1</th>
+                                    <td>Mark</td>
+                                    <td>@mdo</td>
+                                    <td>Otto</td>
+                                    <td>@mdo</td>
+                                    <td>@mdo</td>
+                                    <td>@mdo</td>
+                                </tr>                           
+                            </tbody>
+                        </table>
+
                     </div>
 
                 </div>
