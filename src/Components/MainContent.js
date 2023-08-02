@@ -119,10 +119,7 @@ function MainContent() {
                                     <th className="col">Last</th>
                                     <th className="col">Handle</th>
                                     <th className="col">third</th>
-                                    <th className="col" colSpan={7}>Actions</th>
-                                   
-                                  
-                                    
+                                    <th className="col" colSpan={7}>Actions</th>                                                                   
                                 </tr>
                             </thead>
                             <tbody>
